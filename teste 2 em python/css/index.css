@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(rgba(0,0,0,.6),
+    rgba(0,0,0,.6)),
+    url('https://frizzar.com.br/blog/wp-content/uploads/2025/01/salao-de-beleza-moderno.webp');
+
+    background-size:cover;
+    background-position:center;
+
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:900px;
+    display:flex;
+    gap:20px;
+
+    background:rgba(255,255,255,.95);
+    padding:30px;
+    border-radius:20px;
+}
+
+
+h1{
+    text-align:center;
+    color:#333;
+    margin-bottom:25px;
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+
+    border:none;
+    border-radius:12px;
+
+    background:#f4f4f4;
+
+    font-size:15px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    box-shadow:0 0 10px #667eea;
+}
+
+button{
+    width:100%;
+    padding:15px;
+
+    border:none;
+    border-radius:12px;
+
+    background:#667eea;
+
+    color:white;
+
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+
+    background:#5a6de0;
+}
+
+#agendamentos{
+    margin-top:25px;
+}
+
+.card{
+    background:white;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    margin-bottom:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
